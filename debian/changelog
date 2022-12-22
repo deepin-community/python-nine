@@ -1,0 +1,72 @@
+python-nine (1.1.0-1) unstable; urgency=medium
+
+  * New upstream version 1.1.0
+  * Bump debhelper from deprecated 8 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Bump Standards-Version to 4.5.0
+  * d/salsa-ci.yml: Add a CI config file.
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Tue, 11 Feb 2020 11:01:19 +0900
+
+python-nine (1.0.0-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Deprecating priority extra as per policy 4.0.1
+  * d/changelog: Remove trailing whitespaces
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #937947
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 05 Oct 2019 20:22:03 -0400
+
+python-nine (1.0.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+
+  [ TANIGUCHI Takaki ]
+  * New upstream version 1.0.0
+  * Bump Standards-Version.
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Tue, 11 Oct 2016 13:33:16 +0900
+
+python-nine (0.3.4-2) unstable; urgency=medium
+
+  [ SVN-Git Migration ]
+  * git-dpm config
+  * Update Vcs fields for git migration
+
+  [ TANIGUCHI Takaki ]
+  * debian/watch: Use pypy.debian.net.
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Wed, 25 Nov 2015 22:52:42 +0900
+
+python-nine (0.3.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards-Version 3.9.6
+  * debian/copyright: Fix lintian warning (License name)
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Wed, 05 Nov 2014 10:48:41 +0900
+
+python-nine (0.3.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Added missing dh-python build-depends.
+  * Ran wrap-and-sort.
+  * Added missing build-depends: python-importlib.
+
+ -- Thomas Goirand <zigo@debian.org>  Sun, 09 Mar 2014 09:11:24 +0000
+
+python-nine (0.3.3-1) unstable; urgency=low
+
+  * Initial release. (Closes: #720282)
+
+ -- TANIGUCHI Takaki <takaki@debian.org>  Tue, 20 Aug 2013 11:58:22 +0900
